@@ -1,17 +1,5 @@
 # Day 13/20
 
-#lst = [i for i in range(10) if i % 2 == 0]
-#print(lst)
-
-#add_two_numbers = lambda x, y: x + y - 2
-#print(add_two_numbers(1, 2))
-#print((lambda x,y: x + y)(2,1))
-
-#def aboba(x):
-    #return lambda y: x ** y
-
-#print(aboba(11)(2))
-
 numbers = [-4, -3, -2, -1, 0, 2, 4, 6]
 filtered_numbers = [i for i in numbers if i <= 0]
 print(filtered_numbers)
